@@ -1,0 +1,10 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+    #AnchorPane {
+        -fx-background-image: url("pokerTable.jpg");
+    }

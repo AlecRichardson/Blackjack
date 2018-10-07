@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="730.0" prefWidth="1000.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="awrnndfinalproject.Page2Controller">
+    <stylesheets>
+        <URL value="@page2.css" />
+    </stylesheets>
+   <children>
+      <ImageView fx:id="dealerCardImage5" fitHeight="172.0" fitWidth="120.0" layoutX="46.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="myCard1" fill="WHITE" layoutX="400.0" layoutY="578.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="Deal" layoutX="421.0" layoutY="303.0" mnemonicParsing="false" onAction="#dealCards" prefHeight="25.0" prefWidth="141.0" text="Deal" />
+      <Text fx:id="myCard2" fill="WHITE" layoutX="408.0" layoutY="572.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="dealerCard1" fill="WHITE" layoutX="390.0" layoutY="82.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="dealerCard2" fill="WHITE" layoutX="390.0" layoutY="168.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="myCard3" fill="WHITE" layoutX="390.0" layoutY="578.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="myCard4" fill="WHITE" layoutX="390.0" layoutY="579.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="dealerCard3" fill="WHITE" layoutX="402.0" layoutY="160.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="dealerCard4" fill="WHITE" layoutX="402.0" layoutY="160.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="hit" layoutX="421.0" layoutY="353.0" mnemonicParsing="false" onAction="#hit" prefHeight="25.0" prefWidth="54.0" text="Hit" />
+      <Text fx:id="myCard5" fill="WHITE" layoutX="390.0" layoutY="578.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="myCard6" fill="WHITE" layoutX="390.0" layoutY="573.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="dealerCard6" fill="WHITE" layoutX="390.0" layoutY="159.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="dealerCard5" fill="WHITE" layoutX="390.0" layoutY="122.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="myCardValueText" fill="WHITE" layoutX="246.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="91.13671875">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="dealerCardValueText" fill="WHITE" layoutX="246.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="91.13671875">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="stand" layoutX="510.0" layoutY="353.0" mnemonicParsing="false" onAction="#stand" prefHeight="25.0" prefWidth="54.0" text="Stand" />
+      <Text fx:id="chipsText" fill="WHITE" layoutX="782.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="172.13671875">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="save" layoutX="421.0" layoutY="402.0" mnemonicParsing="false" onAction="#handleSave" prefHeight="25.0" prefWidth="141.0" text="Save" />
+      <ImageView fx:id="dealerCardImage3" fitHeight="172.0" fitWidth="120.0" layoutX="197.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="dealerCardImage1" fitHeight="172.0" fitWidth="120.0" layoutX="348.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="dealerCardImage2" fitHeight="172.0" fitWidth="120.0" layoutX="502.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="dealerCardImage4" fitHeight="172.0" fitWidth="120.0" layoutX="653.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="dealerCardImage6" fitHeight="172.0" fitWidth="120.0" layoutX="808.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="myCardImage1" fitHeight="172.0" fitWidth="120.0" layoutX="361.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="myCardImage2" fitHeight="172.0" fitWidth="120.0" layoutX="504.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="myCardImage3" fitHeight="172.0" fitWidth="120.0" layoutX="218.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="myCardImage5" fitHeight="172.0" fitWidth="120.0" layoutX="32.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="myCardImage4" fitHeight="172.0" fitWidth="120.0" layoutX="653.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="myCardImage6" fitHeight="172.0" fitWidth="120.0" layoutX="868.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="89.0" layoutY="303.0" prefHeight="35.0" prefWidth="155.0" text="Dealer Score:" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="374.0" prefHeight="35.0" prefWidth="155.0" text="My Score:" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="666.0" layoutY="326.0" prefHeight="35.0" prefWidth="155.0" text="My chips:" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

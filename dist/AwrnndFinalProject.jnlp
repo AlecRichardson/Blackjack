@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AwrnndFinalProject.jnlp">
+  <information>
+    <title>AwrnndFinalProject</title>
+    <vendor>Alec</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AwrnndFinalProject.jar" size="7684279" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AwrnndFinalProject" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="awrnndfinalproject.AwrnndFinalProject"  name="AwrnndFinalProject" />
+  <update check="always"/>
+</jnlp>

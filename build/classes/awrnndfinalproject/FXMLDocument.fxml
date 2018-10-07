@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="730.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="awrnndfinalproject.FXMLDocumentController">
+    <children>
+      <ImageView fx:id="welcomeImage" fitHeight="456.0" fitWidth="584.0" layoutX="208.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true" />
+        <Button fx:id="newGame" layoutX="427.0" layoutY="501.0" onAction="#handleNewGame" prefHeight="25.0" prefWidth="146.0" text="New Game" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text fill="#f80000" layoutX="342.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BlackJack" wrappingWidth="316.884765625">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Text>
+      <Button fx:id="loadGame" layoutX="427.0" layoutY="545.0" mnemonicParsing="false" onAction="#handleOpen" prefHeight="25.0" prefWidth="146.0" text="Load Game" />
+      <Button fx:id="about" layoutX="427.0" layoutY="588.0" onAction="#about" prefHeight="25.0" prefWidth="146.0" text="About" />
+    </children>
+</AnchorPane>
